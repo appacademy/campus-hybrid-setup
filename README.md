@@ -16,4 +16,4 @@ development environment.
 After completing the setup instructions for your particular operating system, be
 sure to verify that everything is working as expected.
 
-[Checking your Setup](checking-your-setup.md)
+[Checking your Setup](verification-script.md)
