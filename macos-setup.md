@@ -14,9 +14,14 @@ You need to be running macOS Mojave or newer in order to follow these instructio
 
 Install all of these pieces in order.
 
-* [Google Chrome](google-chrome-setup.md)
-* [Visual Studio Code](visual-studio-code-setup.md)
-* [Homebrew](homebrew-setup.md)
-* [rbenv & Ruby](rbenv-and-ruby-setup.md)
-* [PostgreSQL & SQLite](postgresql-and-sqlite-setup.md)
-* [nvm & Node.js](nvm-and-node-setup.md)
+### Google Chrome
+
+### Visual Studio Code
+
+### Homebrew
+
+### rbenv & Ruby
+
+### PostgreSQL & SQLite
+
+### nvm & Node.js
