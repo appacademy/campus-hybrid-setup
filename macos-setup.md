@@ -8,7 +8,7 @@ You need to be running macOS Mojave or newer in order to follow these instructio
 > out by going to the Apple menu and choosing About this Mac.  If you see
 > Chip: Apple then you have an Apple Silicon Mac.
  
-[Apple Silicon addendum]:apple-silicon-mac-addendum.md
+[Apple Silicon addendum]:apple-silicon-addendum.md
 
 ## What to install
 
