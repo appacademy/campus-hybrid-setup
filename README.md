@@ -1,2 +1,19 @@
-# campus-hybrid-setup
-Setting up your computer for App Academy
+# Setting up your computer for App Academy
+
+When preparing for App Academy, it is vitally important  that your computer be
+setup in a very specific way. Not taking the time to do this correctly will likely
+result in repeated issues and distractions, preventing you from concentratng on
+the curriculum.
+
+First, navigate to the guide for your particular operating system. From there you
+can proceed to the directions for installing the individual components of your
+development environment.
+
+- [macOS Setup](macos-setup.md)
+- [Ubuntu Setup](ubuntu-setup.md)
+- [Windows Setup](windows-setup.md)
+
+After completing the setup instructions for your particular operating system, be
+sure to verify that everything is working as expected.
+
+[Checking your Setup](checking-your-setup.md)
