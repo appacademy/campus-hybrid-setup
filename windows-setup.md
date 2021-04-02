@@ -92,6 +92,7 @@ this order:
 ```shell
    rbenv install 2.5.1
    rbenv global 2.5.1
+   rbenv rehash
    gem install bundler pry byebug
    gem install rails -v 5.2.3
    rbenv rehash
