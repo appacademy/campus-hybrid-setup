@@ -17,7 +17,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 ### Visual Studio Code
 
 1. Using Google Chrome, navigate to the [VS Code Download] page.
-2. Download and run the Windows installer.
+2. Download and run the Linux `.deb` installer.
 
 [VS Code Download]:https://code.visualstudio.com/Download
 
