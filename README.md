@@ -16,4 +16,4 @@ development environment.
 After completing the setup instructions for your particular operating system,
 follow the link below for instructions on running the verification script.
 
-[Verification Script](verification-script.md)(not yet implemented)
+[Verification Script](verification-script.md) (not yet implemented)
