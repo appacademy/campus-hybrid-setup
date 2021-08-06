@@ -51,7 +51,7 @@ If you ever need to restart the Ubuntu virtual machine, you need to open a
 Powershell window and run the following command:
 
 ```shell
-wsl --shutdown
+   wsl --shutdown
 ```
 
 Next time you open the Ubuntu terminal it will start the virtual machine back up.
@@ -81,31 +81,40 @@ this order:
 1. Run the following commands in your Ubuntu terminal in order to install `rbenv`
 ```shell
    sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
-   ```
-   ```shell
+```
+```shell
    curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-   ```
-   ```shell
+```
+```shell
    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-   ```
-   ```shell
+```
+```shell
    echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-   ```
-   ```shell
+```
+```shell
    echo 'export EDITOR="code --wait"' >> ~/.bashrc
-   ```
-   ```shell
+```
+```shell
    source ~/.bashrc
-   ```
 ```
 
 2. Run the following commands in your Ubuntu terminal in order to install the correct version of Ruby and the gems we'll be using in the course
 ```shell
    rbenv install 2.5.1
+```
+```shell
    rbenv global 2.5.1
+```
+```shell
    rbenv rehash
+```
+```shell
    gem install bundler pry byebug
+```
+```shell
    gem install rails -v 5.2.3
+```
+```shell
    rbenv rehash
 ```
 
@@ -114,18 +123,31 @@ this order:
 1. Run the following commands in your Ubuntu terminal in order to install PostgreSQL
 ```shell
    sudo apt-get install postgresql libpq-dev
+```
+```shell
    sudo service postgresql start
+```
+```shell
    source ~/.bashrc
 ```
+   
 > Note that you will need to run the command `sudo service postgresql start` every time you restart the virtual machine. We recommend creating an alias for this and any other commands you find yourself running on a regular basis.
 
 2. Run the following commands in your Ubuntu terminal in order to create a new PostgreSQL user
 > Note that you need to replace `your_username` with the username that you created for your Ubuntu virtual machine
 ```shell
    sudo -u postgres psql
+```
+```shell
    CREATE USER your_username WITH SUPERUSER CREATEROLE CREATEDB REPLICATION;
+```
+```shell
    ALTER ROLE your_username WITH BYPASSRLS;
+```
+```shell
    CREATE DATABASE your_username;
+```
+```shell
    \q
 ```
 
@@ -139,8 +161,16 @@ this order:
 1. Run the following commands in your Ubuntu terminal in order to install `nvm` and the correct version of Node.js
 ```shell
    curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
+```
+```shell
    bash install_nvm.sh
+```
+```shell
    nvm install 10.13.0
+```
+```shell
    nvm use 10.13.0
+```
+```shell
    source ~/.bashrc
 ```
