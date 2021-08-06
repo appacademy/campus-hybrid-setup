@@ -81,11 +81,22 @@ this order:
 1. Run the following commands in your Ubuntu terminal in order to install `rbenv`
 ```shell
    sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+   ```
+   ```shell
    curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+   ```
+   ```shell
    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+   ```
+   ```shell
    echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+   ```
+   ```shell
    echo 'export EDITOR="code --wait"' >> ~/.bashrc
+   ```
+   ```shell
    source ~/.bashrc
+   ```
 ```
 
 2. Run the following commands in your Ubuntu terminal in order to install the correct version of Ruby and the gems we'll be using in the course
