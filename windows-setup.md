@@ -166,6 +166,9 @@ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o
 bash install_nvm.sh
 ```
 ```shell
+source ~/.bashrc
+```
+```shell
 nvm install 10.13.0
 ```
 ```shell
