@@ -70,6 +70,7 @@ Install all of these pieces in order.
 ```
 
 > If you are running the Big Sur version of macOS and are unable to install Ruby version 2.5.1, try installing version 2.5.8 instead!
+> If installing rails is throwing an error, try running `brew install shared-mime-info` and trying again.
    
 ### PostgreSQL & SQLite
 
