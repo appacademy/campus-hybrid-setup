@@ -90,7 +90,7 @@ Install all of these pieces in order.
 
 1. Run the following commands in your terminal in order to install `nvm` and the correct version of Node.js
 ```shell
-   curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
    source ~/.zshrc
    nvm install 10.13.0
    nvm use 10.13.0
