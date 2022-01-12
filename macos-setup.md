@@ -52,7 +52,8 @@ Install all of these pieces in order.
 ### Homebrew & git
 
 1. Run the following commands in your terminal in order to install Homebrew and
-   `git`:
+   `git`. (Replace "Your Name" and "Your Email" with your actual name and email,
+   respectively, in quotation marks.)
 
   ```shell
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
