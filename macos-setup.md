@@ -88,7 +88,7 @@ Install all of these pieces in order.
 > If you are running the Big Sur version of macOS and are unable to install Ruby
 > version 2.5.1, try installing version 2.5.8 instead!
 >
-> If installing rails is throwing an error, try running `brew install
+> If installing Rails is throwing an error, try running `brew install
 > shared-mime-info` and trying again.
 
 ### PostgreSQL & SQLite
@@ -105,7 +105,7 @@ Install all of these pieces in order.
 
 4. Restart your terminal in order to complete the installation.
 
-[Postgres.app Download]:https://postgresapp.com/downloads.html
+[Postgres.app Download]: https://postgresapp.com/downloads.html
 
 ### nvm & Node.js
 
