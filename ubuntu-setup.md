@@ -24,7 +24,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 
 ### rbenv & Ruby
 
-1. Run the following commands in your Ubuntu terminal in order to install `rbenv`:
+1. Run the following commands in your Ubuntu terminal to install `rbenv`:
 
 ```shell
    sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
@@ -35,8 +35,8 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
    source ~/.bashrc
 ```
 
-2. Run the following commands in your Ubuntu terminal in order to install the
-   correct version of Ruby and the gems we'll be using in the course:
+1. Run the following commands in your Ubuntu terminal to install the correct
+   version of Ruby and the gems you'll be using in the course:
 
 ```shell
    rbenv install 2.5.1
@@ -49,8 +49,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 
 ### PostgreSQL & SQLite
 
-1. Run the following commands in your Ubuntu terminal in order to install
-   PostgreSQL:
+1. Run the following commands in your Ubuntu terminal to install PostgreSQL:
 
 ```shell
    sudo apt-get install postgresql libpq-dev
@@ -62,8 +61,8 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 > every time you restart the virtual machine. We recommend creating an alias for
 > this and any other commands you find yourself running on a regular basis.
 
-2. Run the following commands in your Ubuntu terminal in order to create a new
-   PostgreSQL user:
+2. Run the following commands in your Ubuntu terminal to create a new PostgreSQL
+   user:
 
    > Note that you need to replace `your_username` with the username that you
    > created for your Ubuntu virtual machine
@@ -76,7 +75,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
    \q
 ```
 
-3. Run the following command in your Ubuntu terminal in order to install SQLite
+3. Run the following command in your Ubuntu terminal to install SQLite:
 
 ```shell
    sudo apt-get install sqlite3 libsqlite3-dev
@@ -84,8 +83,8 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 
 ### nvm & Node.js
 
-1. Run the following commands in your Ubuntu terminal in order to install `nvm`
-   and the correct version of Node.js:
+1. Run the following commands in your Ubuntu terminal to install `nvm` and the
+   correct version of Node.js:
 
 ```shell
    curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
