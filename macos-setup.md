@@ -10,7 +10,7 @@ instructions.
 > find this out by going to the Apple menu and choosing About this Mac.  If you
 > see Chip: Apple then you have an Apple Silicon Mac.
 
-[Apple Silicon addendum]:apple-silicon-addendum.md
+[Apple Silicon addendum]: apple-silicon-addendum.md
 
 ## What to install
 
@@ -23,7 +23,7 @@ Install all of these pieces in order.
 2. Download and run the installer.
 3. When prompted, set Google Chrome as your default internet browser.
 
-[Google Chrome Download]:https://www.google.com/chrome/
+[Google Chrome Download]: https://www.google.com/chrome/
 
 ### Visual Studio Code
 
@@ -35,29 +35,34 @@ Install all of these pieces in order.
 5. Type `shell command` into the search bar that pops up and select the option
    `Shell Command: Install 'code' command in PATH`.
 
-[VS Code Download]:https://code.visualstudio.com/Download
+[VS Code Download]: https://code.visualstudio.com/Download
 
 ### Xcode CLI & ZSH
 
-1. Run the following commands in your terminal in order to install the Xcode CLI
-   tools and set ZSH as your default shell
+1. Run the following commands in your terminal to install the Xcode CLI tools
+   and set ZSH as your default shell
 
   ```shell
    xcode-select --install
    chsh -s /bin/zsh
   ```
 
-2. Restart your terminal in order to complete the transition to ZSH
+2. Restart your terminal to complete the transition to ZSH
 
 ### Homebrew & git
 
-1. Run the following commands in your terminal in order to install Homebrew and
-   `git`. (Replace "Your Name" and "Your Email" with your actual name and email,
-   respectively, in quotation marks.)
+1. Run the following commands in your terminal to install Homebrew and `git`:
 
   ```shell
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    brew install git
+  ```
+
+2. Run the following commands in your terminal to initialize your `git`
+   configuration. (Replace `"Your Name"` and `"Your Email"` with your actual
+   name and email--respectively--in quotation marks.)
+
+  ```sh
    git config --global user.name "Your Name" 
    git config --global user.email "Your Email"
    git config --global init.defaultBranch main
@@ -65,7 +70,7 @@ Install all of these pieces in order.
 
 ### rbenv & Ruby
 
-1. Run the following commands in your terminal in order to install `rbenv`:
+1. Run the following commands in your terminal to install `rbenv`:
 
   ```shell
    brew install rbenv
@@ -74,8 +79,8 @@ Install all of these pieces in order.
    source ~/.zshrc
   ```
 
-2. Run the following commands in your terminal in order to install the correct
-   version of Ruby and the gems we'll be using in the course:
+2. Run the following commands in your terminal to install the correct version of
+   Ruby and the gems you'll be using in the course:
 
   ```shell
    rbenv install 2.5.1
@@ -104,14 +109,14 @@ Install all of these pieces in order.
    brew install sqlite
   ```
 
-4. Restart your terminal in order to complete the installation.
+4. Restart your terminal to complete the installation.
 
 [Postgres.app Download]: https://postgresapp.com/downloads.html
 
 ### nvm & Node.js
 
-1. Run the following commands in your terminal in order to install `nvm` and the
-   correct version of Node.js:
+1. Run the following commands in your terminal to install `nvm` and the correct
+   version of Node.js:
 
   ```shell
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
