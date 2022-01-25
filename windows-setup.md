@@ -188,10 +188,10 @@ bash install_nvm.sh
 source ~/.bashrc
 ```
 ```shell
-nvm install 10.13.0
+nvm install 14
 ```
 ```shell
-nvm use 10.13.0
+nvm use 14
 ```
 ```shell
 source ~/.bashrc
