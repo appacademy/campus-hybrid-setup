@@ -121,6 +121,6 @@ Install all of these pieces in order.
   ```shell
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
    source ~/.zshrc
-   nvm install 14
-   nvm use 14
+   nvm install 16
+   nvm use 16
   ```
