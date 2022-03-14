@@ -6,9 +6,10 @@ You need to be running macOS Mojave or newer in order to follow these
 instructions.
 
 > IMPORTANT: If you have a mac with an Apple Silicon chip, please read the Apple
-> Silicon addendum before proceeding with these instructions. You can
-> find out if you have this chip by going to the Apple menu and choosing `About
-> This Mac`.  If you see `Chip: Apple` then you have an Apple Silicon Mac.
+> Silicon addendum (see left-hand sidebar) before proceeding with these
+> instructions. You can find out if you have this chip by going to the Apple
+> menu and choosing `About This Mac`.  If you see `Chip: Apple` then you have an
+> Apple Silicon Mac.
 
 ## What to install
 
