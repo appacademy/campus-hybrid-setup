@@ -1,12 +1,11 @@
 # Windows Setup
 
 Welcome Windows users! Your operating system comes from a different lineage than
-most operating systems, Windows has it's roots in MS-DOS and Windows NT, while
-macOS and Linux both are "Unix" style operating systems. You will be using the
-Unix command line in this course so everyone in class is using the same command
-line tools and programs. Windows does not include a Unix style system by default
-so you are going to use an add-on piece of Microsoft Technology called "Windows
-Subsystem for Linux".
+most operating systems: Windows has its roots in MS-DOS and Windows NT, while
+macOS and Linux are both "Unix"-style operating systems. Everyone in this course
+will be using the Unix command line with its associated tools. Windows does not
+include a Unix-style system by default, so you are going to use an add-on piece
+of Microsoft Technology called "Windows Subsystem for Linux", or WSL.
 
 ## WSL
 
@@ -44,9 +43,9 @@ filesystem.
 
 If you do need to access the files in your Ubuntu home directory from Windows
 Explorer, you can type `Windows + R` to bring up the run command dialog and type
-`\\wsl$\home\<your-user>` replacing `your-user` with your Ubuntu user name. (You
-can find your Ubuntu user name by typing `whoami` at your Ubuntu terminal
-prompt.)
+`\\wsl$\home\<your-username>` replacing `<your-username>` with your Ubuntu
+username. (You can find your Ubuntu username by typing `whoami` at your Ubuntu
+terminal prompt.)
 
 If you want to access your Windows hard drive from Ubuntu, you can use the path
 `/mnt/c` inside of the Ubuntu virtual machine.
@@ -58,8 +57,8 @@ Powershell window and run the following command:
 wsl --shutdown
 ```
 
-Next time you open the Ubuntu terminal it will start the virtual machine back
-up.
+The next time you open the Ubuntu terminal, it will start the virtual machine
+back up.
 
 ## Install everything else
 
@@ -88,42 +87,22 @@ this order:
 
 ```shell
 sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
-```
-```shell
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
-```
-```shell
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-```
-```shell
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-```
-```shell
 echo 'export EDITOR="code --wait"' >> ~/.bashrc
-```
-```shell
 source ~/.bashrc
 ```
 
-1. Run the following commands in your Ubuntu terminal to install the correct
-   version of Ruby and the gems we'll be using in the course:
+2. Run the following commands in your Ubuntu terminal to install the correct
+   version of Ruby and the gems you'll be using in the course:
 
 ```shell
 rbenv install 2.5.1
-```
-```shell
 rbenv global 2.5.1
-```
-```shell
 rbenv rehash
-```
-```shell
 gem install bundler pry byebug
-```
-```shell
 gem install rails -v 5.2.3
-```
-```shell
 rbenv rehash
 ```
 
@@ -133,19 +112,15 @@ rbenv rehash
 
 ```shell
 sudo apt-get install postgresql libpq-dev
-```
-```shell
 sudo service postgresql start
-```
-```shell
 source ~/.bashrc
 ```
-   
-> Note that you will need to run the command `sudo service postgresql start`
-> every time you restart the virtual machine. We recommend creating an alias for
-> this and any other commands you find yourself running on a regular basis.
 
-1. Run the following commands in your Ubuntu terminal to create a new PostgreSQL
+> Note that you will need to run the command `sudo service postgresql start`
+> **every time you restart the virtual machine**. We recommend creating an alias
+> for this and any other commands you find yourself running on a regular basis.
+
+2. Run the following commands in your Ubuntu terminal to create a new PostgreSQL
    user
 
 > Note that you need to replace `your_username` with the username that you
@@ -153,21 +128,13 @@ source ~/.bashrc
 
 ```shell
 sudo -u postgres psql
-```
-```shell
 CREATE USER your_username WITH SUPERUSER CREATEROLE CREATEDB REPLICATION;
-```
-```shell
 ALTER ROLE your_username WITH BYPASSRLS;
-```
-```shell
 CREATE DATABASE your_username;
-```
-```shell
 \q
 ```
 
-1. Run the following command in your Ubuntu terminal to install SQLite:
+3. Run the following command in your Ubuntu terminal to install SQLite:
 
 ```shell
 sudo apt-get install sqlite3 libsqlite3-dev
@@ -180,19 +147,9 @@ sudo apt-get install sqlite3 libsqlite3-dev
 
 ```shell
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
-```
-```shell
 bash install_nvm.sh
-```
-```shell
 source ~/.bashrc
-```
-```shell
 nvm install 16
-```
-```shell
 nvm use 16
-```
-```shell
 source ~/.bashrc
 ```
