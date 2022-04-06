@@ -1,17 +1,18 @@
 # macOS Setup
 
+**IMPORTANT**  
+These instructions are for Macs **without** an Apple Silicon (M1) chip. You can
+find out if you have this chip by going to the Apple menu and choosing `About
+This Mac`. If you see `Chip: Apple`, then you have an Apple Silicon Mac and
+should follow the `Apple Silicon (M1) Setup` instead. (See the left-hand sidebar
+menu.)
+
 ## Requirements
 
 You need to be running macOS Mojave or newer in order to follow these
 instructions.
 
-> IMPORTANT: If you have a mac with an Apple Silicon chip, please read the Apple
-> Silicon addendum (see left-hand sidebar) before proceeding with these
-> instructions. You can find out if you have this chip by going to the Apple
-> menu and choosing `About This Mac`.  If you see `Chip: Apple` then you have an
-> Apple Silicon Mac.
-
-## What to install
+## Installing the software
 
 Install all of these pieces in order.
 
