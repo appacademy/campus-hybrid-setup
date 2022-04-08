@@ -9,12 +9,11 @@ menu.)
 
 ## Requirements
 
-You need to be running macOS Mojave or newer in order to follow these
-instructions.
+You need to be running macOS Mojave or newer to follow these instructions.
 
 ## Installing the software
 
-Install all of these pieces in order.
+Install all of the following software in order.
 
 ### Google Chrome
 
