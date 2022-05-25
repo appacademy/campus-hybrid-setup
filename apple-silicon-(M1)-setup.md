@@ -77,7 +77,7 @@ Run the following commands in your terminal to install the correct version of
 Ruby and the gems you'll be using in the course:
 
 ```shell
-RUBY_CFLAGS="-Wno-error=implicit-function-declaration" rbenv install 3.1.1
+rbenv install 3.1.1
 rbenv global 3.1.1
 rbenv rehash
 gem install bundler pry byebug
