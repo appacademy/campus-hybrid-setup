@@ -77,13 +77,13 @@ Run the following commands in your terminal to install the correct version of
 Ruby and the gems you'll be using in the course:
 
 ```shell
-RUBY_CFLAGS="-Wno-error=implicit-function-declaration" rbenv install 2.5.1
-rbenv global 2.5.1
+rbenv install 3.1.1
+rbenv global 3.1.1
 rbenv rehash
 gem install bundler pry byebug
 gem update --system
 brew install shared-mime-info
-gem install rails -v 5.2.3
+gem install rails -v 7.0.3
 rbenv rehash
 ```
 
