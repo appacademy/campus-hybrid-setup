@@ -35,7 +35,7 @@ Install all of the following software in order.
 
 Run the following command in your terminal to install the Xcode CLI tools:
 
-```shell
+```text
 xcode-select --install
 ```
 
@@ -43,7 +43,7 @@ xcode-select --install
 
 Run the following commands in your terminal to install and configure Homebrew:
 
-```shell
+```text
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 ```
@@ -54,7 +54,7 @@ Run the following commands in your terminal to install and initialize your `git`
 configuration. (Replace `"Your Name"` and `"Your Email"` with your actual name
 and email--respectively--**in quotation marks**.)
 
-```sh
+```text
 brew install git
 git config --global user.name "Your Name" 
 git config --global user.email "Your Email"
@@ -65,7 +65,7 @@ git config --global init.defaultBranch main
 
 Run the following commands in your terminal to install and configure `rbenv`:
 
-```shell
+```text
 brew install rbenv
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 source ~/.zshrc
@@ -76,7 +76,7 @@ source ~/.zshrc
 Run the following commands in your terminal to install the correct version of
 Ruby and the gems you'll be using in the course:
 
-```shell
+```text
 rbenv install 3.1.1
 rbenv global 3.1.1
 rbenv rehash
@@ -94,7 +94,7 @@ rbenv rehash
 3. Run the following commands in your terminal to access the corresponding CLI
    tools
 
-   ```shell
+   ```text
    sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
    ```
 
@@ -107,7 +107,7 @@ rbenv rehash
 Run the following commands in your terminal to install `nvm` and the correct
 version of Node.js:
 
-```shell
+```text
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.zshrc
 nvm install 16

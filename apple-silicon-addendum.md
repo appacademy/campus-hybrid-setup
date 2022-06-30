@@ -28,7 +28,7 @@ translate x86 instructions into ARM instructions.
 
 1. Run the following command in your terminal to install Rosetta 2:
 
-```shell
+```text
    /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ```
 

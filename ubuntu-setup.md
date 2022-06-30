@@ -26,7 +26,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 
 1. Run the following commands in your Ubuntu terminal to install `rbenv`:
 
-```shell
+```text
    sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
    curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -38,20 +38,20 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 1. Run the following commands in your Ubuntu terminal to install the correct
    version of Ruby and the gems you'll be using in the course:
 
-```shell
+   ```text
    rbenv install 3.1.1
    rbenv global 3.1.1
    rbenv rehash
    gem install bundler pry byebug
    gem install rails -v 7.0.3
    rbenv rehash
-```
+   ```
 
 ### PostgreSQL & SQLite
 
 1. Run the following commands in your Ubuntu terminal to install PostgreSQL:
 
-```shell
+```text
    sudo apt-get install postgresql libpq-dev
    sudo service postgresql start
    source ~/.bashrc
@@ -67,7 +67,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
    > Note that you need to replace `your_username` with the username that you
    > created for your Ubuntu virtual machine
 
-```shell
+```text
    sudo -u postgres psql
    CREATE USER your_username WITH SUPERUSER CREATEROLE CREATEDB REPLICATION;
    ALTER ROLE your_username WITH BYPASSRLS;
@@ -77,7 +77,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 
 3. Run the following command in your Ubuntu terminal to install SQLite:
 
-```shell
+```text
    sudo apt-get install sqlite3 libsqlite3-dev
 ```
 
@@ -86,7 +86,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
 1. Run the following commands in your Ubuntu terminal to install `nvm` and the
    correct version of Node.js:
 
-```shell
+```text
    curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
    bash install_nvm.sh
    nvm install 16
