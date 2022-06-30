@@ -28,9 +28,9 @@ translate x86 instructions into ARM instructions.
 
 1. Run the following command in your terminal to install Rosetta 2:
 
-```text
+   ```text
    /usr/sbin/softwareupdate --install-rosetta --agree-to-license
-```
+   ```
 
 2. Close the Terminal application.
 3. Locate the Terminal application within the Utilities folder (Finder > Go menu
