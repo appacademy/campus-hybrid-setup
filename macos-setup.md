@@ -41,7 +41,7 @@ Install all of the following software in order.
 1. Run the following commands in your terminal to install the Xcode CLI tools
    and set ZSH as your default shell
 
-  ```shell
+  ```text
    xcode-select --install
    chsh -s /bin/zsh
   ```
@@ -52,7 +52,7 @@ Install all of the following software in order.
 
 1. Run the following commands in your terminal to install Homebrew and `git`:
 
-  ```shell
+  ```text
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
    brew install git
   ```
@@ -61,7 +61,7 @@ Install all of the following software in order.
    configuration. (Replace `"Your Name"` and `"Your Email"` with your actual
    name and email--respectively--in quotation marks.)
 
-  ```sh
+  ```text
    git config --global user.name "Your Name" 
    git config --global user.email "Your Email"
    git config --global init.defaultBranch main
@@ -71,7 +71,7 @@ Install all of the following software in order.
 
 1. Run the following commands in your terminal to install `rbenv`:
 
-  ```shell
+  ```text
    brew install rbenv
    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
    echo 'eval "$(rbenv init -)"' >> ~/.zshrc
@@ -81,7 +81,7 @@ Install all of the following software in order.
 2. Run the following commands in your terminal to install the correct version of
    Ruby and the gems you'll be using in the course:
 
-  ```shell
+  ```text
    rbenv install 3.1.1
    rbenv global 3.1.1
    rbenv rehash
@@ -100,7 +100,7 @@ Install all of the following software in order.
 3. Run the following commands in your terminal in order to access the
    corresponding CLI tools and install SQLite:
 
-  ```shell
+  ```text
    sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
    brew install sqlite
   ```
@@ -114,7 +114,7 @@ Install all of the following software in order.
 1. Run the following commands in your terminal to install `nvm` and the correct
    version of Node.js:
 
-  ```shell
+  ```text
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
    source ~/.zshrc
    nvm install 16
