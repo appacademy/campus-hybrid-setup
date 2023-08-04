@@ -90,7 +90,7 @@ You must be running either of the two most recent LTS versions - 18.04 or 20.04.
    ```text
    curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
    bash install_nvm.sh
-   nvm install 16
-   nvm use 16
+   nvm install 18
+   nvm use 18
    source ~/.bashrc
    ```

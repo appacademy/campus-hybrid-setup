@@ -110,6 +110,6 @@ version of Node.js:
 ```text
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 source ~/.zshrc
-nvm install 16
-nvm use 16
+nvm install 18
+nvm use 18
 ```
