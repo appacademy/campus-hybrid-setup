@@ -2,7 +2,7 @@
 
 ## Requirements
 
-You must be running either of the two most recent LTS versions - 18.04 or 20.04.
+You must be running the most recent LTS version: 20.04.
 
 ## What to install
 

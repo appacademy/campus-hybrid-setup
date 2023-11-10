@@ -28,8 +28,8 @@ for now you will have to use the manual install instructions:
 [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)
 
 Follow this guide to install WSL 2 and Ubuntu Linux. We recommend installing
-Ubuntu 18.04 LTS, found
-[here](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q).
+Ubuntu 20.04 LTS, found
+[here](https://apps.microsoft.com/detail/ubuntu-20-04-6-lts/9MTTCL66CPXJ?hl=en-us&gl=US).
 
 ## Tips for using WSL
 
